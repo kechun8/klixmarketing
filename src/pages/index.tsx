@@ -11,7 +11,6 @@ import {
   DollarSign,
   Percent,
 } from "lucide-react"
-import { KlixLogo } from "@/components/logo"
 
 export default function Home() {
   return (
@@ -20,7 +19,6 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-gray-100 justify-around">
         <div className="container flex h-16 items-center justify-around">
           <div className="flex items-center gap-2">
-            <KlixLogo />
             <span className="text-xl font-semibold text-gray-900">Klix.ai</span>
           </div>
           <nav className="hidden md:flex gap-8">
@@ -437,16 +435,16 @@ export default function Home() {
                   <div className="flex-1 flex items-center justify-center mt-8 md:mt-0">
                     <div className="relative w-full max-w-[400px] aspect-square">
                       <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="w-[85%] h-[85%] rounded-full border-2 border-blue-200 animate-[spin_20s_linear_infinite]"></div>
+                        <div className="w-[70%] h-[70%] rounded-full border-2 border-blue-200 animate-[spin_20s_linear_infinite]"></div>
                       </div>
                       <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="w-[65%] h-[65%] rounded-full border-2 border-blue-300 animate-[spin_15s_linear_infinite_reverse]"></div>
+                        <div className="w-[55%] h-[55%] rounded-full border-2 border-blue-300 animate-[spin_15s_linear_infinite_reverse]"></div>
                       </div>
                       <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="w-[45%] h-[45%] rounded-full border-2 border-blue-400 animate-[spin_10s_linear_infinite]"></div>
+                        <div className="w-[35%] h-[35%] rounded-full border-2 border-blue-400 animate-[spin_10s_linear_infinite]"></div>
                       </div>
                       <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="w-[25%] h-[25%] rounded-full bg-blue-600 animate-pulse"></div>
+                        <div className="w-[15%] h-[15%] rounded-full bg-blue-600 animate-pulse"></div>
                       </div>
                     </div>
                   </div>
@@ -506,25 +504,22 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <KlixLogo className="w-8 h-8" />
                 <h4 className="text-white font-semibold text-lg">Klix.ai</h4>
               </div>
               <p className="text-gray-400">
-                Prinsengracht 123
+                Rigoletto 253
                 <br />
-                1015 KD Amsterdam
+                2907 JG  Capelle aan den IJssel
               </p>
               <p className="text-gray-400 mt-2">
-                KVK: 87654321
-                <br />
-                BTW: NL862611173B01
+                KVK: 96245719
               </p>
             </div>
 
             <div>
               <h4 className="text-white font-semibold text-lg mb-4">Contact</h4>
-              <p className="text-gray-400">020 - 123 45 67</p>
-              <p className="text-gray-400">info@klix.ai</p>
+              <p className="text-gray-400">Telefoon: </p>
+              <p className="text-gray-400">Email: info@klixmarketing.nl</p>
               <p className="text-gray-400 mt-2">Mon-Fri: 09:00 - 17:30</p>
             </div>
 
