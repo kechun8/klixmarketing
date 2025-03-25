@@ -34,7 +34,9 @@ export default function Home() {
               Comparison
             </a>
           </nav>
+          <a href="#contact">
           <Button className="bg-blue-600 hover:bg-blue-700 rounded-full px-5 -">Start Now</Button>
+          </a>
         </div>
       </header>
 
