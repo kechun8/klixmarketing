@@ -16,10 +16,10 @@ import { KlixLogo } from "@/components/logo"
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-white ">
+    <div className="flex flex-col min-h-screen bg-white">
       {/* Header */}
-      <header className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-gray-100 justify-around">
-        <div className="container flex h-16 items-center justify-around">
+      <header className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-gray-100">
+        <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <KlixLogo />
             <span className="text-xl font-semibold text-gray-900">Klix.ai</span>
@@ -35,7 +35,7 @@ export default function Home() {
               Comparison
             </a>
           </nav>
-          <Button className="bg-blue-600 hover:bg-blue-700 rounded-full px-5 -">Start Now</Button>
+          <Button className="bg-blue-600 hover:bg-blue-700 rounded-full px-5">Start Now</Button>
         </div>
       </header>
 
@@ -57,18 +57,16 @@ export default function Home() {
                 Not the biggest ad budget. Klix.ai helps your product get the visibility it deserves.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                <a href="#contact">
-                  <Button size="lg" className="bg-blue-600 hover:bg-blue-700 rounded-full px-8 h-12">
-                    Get Started
-                  </Button>
-                </a>
-                {/* <Button
+                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 rounded-full px-8 h-12">
+                  Get Started
+                </Button>
+                <Button
                   size="lg"
                   variant="outline"
                   className="rounded-full px-8 h-12 border-gray-300 text-gray-700 hover:bg-gray-50"
                 >
                   Learn More
-                </Button> */}
+                </Button>
               </div>
               <p className="text-sm text-gray-500">2 weeks free. No registration required.</p>
             </div>
@@ -472,45 +470,16 @@ export default function Home() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-24" id="contact">
+        <section className="py-24">
           <div className="container max-w-6xl mx-auto px-4 text-center">
             <h2 className="text-4xl font-semibold text-gray-900 mb-6">Ready to reduce your marketing budget?</h2>
-            <div className="container max-w-6xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-semibold text-gray-900 mb-6">Get in Touch</h2>
-          <p className="text-xl text-gray-500 mb-8">
-            We would love to hear from you! Please fill out the form below.
-          </p>
-          <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
-            <input type="hidden" name="access_key" value="29043b1b-9d26-4ef6-9443-68d1be65ab21" />
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Name"
-              required
-              className="w-full p-3 border border-gray-300 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-blue-600 bg-white"
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              required
-              className="w-full p-3 border border-gray-300 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-blue-600 bg-white "
-            />
-            <textarea
-              name="message"
-              placeholder="Your Message"
-              required
-              className="w-full p-3 border border-gray-300 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-blue-600 bg-white "
-              rows={4}
-            ></textarea>
-            <button
-              type="submit"
-              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full"
-            >
-              Submit
-            </button>
-          </form>
-        </div>
+            <p className="text-xl text-gray-500 max-w-3xl mx-auto mb-8">
+              Let us put your product in the spotlight it deserves.
+            </p>
+            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 rounded-full px-8 h-12">
+              Get Started Now <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+            <p className="text-sm text-gray-500 mt-4">2 weeks free. No registration required.</p>
           </div>
         </section>
       </main>
