@@ -389,7 +389,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
+              <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm col-span-1 md:col-span-3">
                 <div className="flex flex-col md:flex-row gap-12">
                   <div className="flex-1">
                     <h3 className="text-2xl font-semibold text-gray-900 mb-6">Hoe onze algoritme werkt</h3>
@@ -411,7 +411,7 @@ export default function Home() {
                         </div>
                         <div>
                           <p className="font-medium text-gray-900 mb-1">Patroonherkenning</p>
-                          <p className="text-gray-500">Our AI identifies patterns and opportunities for optimization</p>
+                          <p className="text-gray-500">Onze AI identificeert patronen en mogelijkheden voor optimalisatie</p>
                         </div>
                       </li>
                       <li className="flex gap-4">
@@ -420,7 +420,7 @@ export default function Home() {
                         </div>
                         <div>
                           <p className="font-medium text-gray-900 mb-1">Strategie implementatie</p>
-                          <p className="text-gray-500">We implement targeted strategies to improve visibility</p>
+                          <p className="text-gray-500">We implementeren doelgerichte strategieën om uw product zichtbaarheid te verbeteren</p>
                         </div>
                       </li>
                       <li className="flex gap-4">
@@ -429,7 +429,7 @@ export default function Home() {
                         </div>
                         <div>
                           <p className="font-medium text-gray-900 mb-1">Continue optimalisatie</p>
-                          <p className="text-gray-500">We constantly refine our approach based on performance data</p>
+                          <p className="text-gray-500">We blijven onze aanpak aanpassen op basis van data en de laatste trends</p>
                         </div>
                       </li>
                     </ol>
