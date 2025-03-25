@@ -35,7 +35,7 @@ export default function Home() {
             </a>
           </nav>
           <a href="#contact">
-          <Button className="bg-blue-600 hover:bg-blue-700 rounded-full px-5 -">Start Now</Button>
+          <Button className="bg-blue-600 hover:bg-blue-700 rounded-full px-5 -">Direct starten</Button>
           </a>
         </div>
       </header>
@@ -52,15 +52,15 @@ export default function Home() {
                 AI-Powered Marketing
               </Badge>
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-gray-900 mb-6">
-                The best product should <span className="text-blue-600">stand out</span>
+                Het beste product moet <span className="text-blue-600">opvallen</span>
               </h1>
               <p className="text-xl text-gray-500 max-w-3xl mb-8">
-                Not the biggest ad budget. Klix.ai helps your product get the visibility it deserves.
+                Niet het grootste advertentiebudget. Klix.ai verbetert je product zichtbaarheid.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <a href="#contact">
                   <Button size="lg" className="bg-blue-600 hover:bg-blue-700 rounded-full px-8 h-12">
-                    Get Started
+                    Direct starten
                   </Button>
                 </a>
                 {/* <Button
@@ -71,7 +71,7 @@ export default function Home() {
                   Learn More
                 </Button> */}
               </div>
-              <p className="text-sm text-gray-500">2 weeks free. No registration required.</p>
+              <p className="text-sm text-gray-500">2 weken gratis. Geen registratie nodig.</p>
             </div>
           </div>
         </section>
@@ -86,21 +86,19 @@ export default function Home() {
               <div>
                 <h2 className="text-3xl font-semibold text-gray-900 mb-4">No cure, no pay</h2>
                 <p className="text-xl text-gray-500">
-                  If your product doesn&apos;t perform better as promised, you don&apos;t pay. It&apos;s that simple. We take the risk,
-                  you get the results.
+                  Scoort je product niet beter zoals beloofd? Dan betaal je niet. Zo simpel is het. Wij nemen het risico, jij krijgt de resultaten.
                 </p>
               </div>
             </div>
 
             <div className="text-center max-w-3xl mx-auto">
-              <h2 className="text-4xl font-semibold text-gray-900 mb-6">What is Klix.ai?</h2>
+              <h2 className="text-4xl font-semibold text-gray-900 mb-6">Wat is Klix.ai?</h2>
               <p className="text-xl text-gray-500 mb-8">
-                We&apos;re the smart, scalable solution that elevates your product in online platforms. Instead of constantly
-                paying for expensive ads, we offer one clear monthly fee.
+                Wij zijn de slimme, schaalbare oplossing die jouw product hoger in online platformen brengt. In plaats van telkens te betalen voor dure advertenties, bieden wij één helder maandtarief. Levert onze aanpak niet op wat we beloven? Dan betaal je niet.
               </p>
               <div className="inline-flex items-center gap-2 text-blue-600 font-medium">
                 <Check className="h-5 w-5" />
-                <span>Only pay for growth. No results? No costs.</span>
+                <span>Betaal alleen voor groei. Geen resultaat? Geen kosten.</span>
               </div>
             </div>
           </div>
@@ -110,9 +108,9 @@ export default function Home() {
         <section id="features" className="py-24">
           <div className="container max-w-6xl mx-auto px-4">
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-semibold text-gray-900 mb-6">What we stand for</h2>
+              <h2 className="text-4xl font-semibold text-gray-900 mb-6">Waar we voor staan</h2>
               <p className="text-xl text-gray-500 max-w-3xl mx-auto">
-                Our core values guide everything we do to ensure your success.
+                Onze kernwaarden vormen de basis van jouw succes.
               </p>
             </div>
 
@@ -121,32 +119,31 @@ export default function Home() {
                 <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-6">
                   <Shield className="h-6 w-6 text-blue-600" />
                 </div>
-                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Simplicity</h3>
-                <p className="text-gray-500">Like a clean design: immediately understandable and usable.</p>
+                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Eenvoud</h3>
+                <p className="text-gray-500">Wij doen het werk, u ziet de resultaten.</p>
               </div>
 
               <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
                 <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-6">
                   <Sparkles className="h-6 w-6 text-blue-600" />
                 </div>
-                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Efficiency</h3>
-                <p className="text-gray-500">Maximum visibility with minimal effort.</p>
+                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Efficiëntie</h3>
+                <p className="text-gray-500">Maximum zichtbaarheid met minimale inspanning.</p>
               </div>
 
               <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
                 <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-6">
                   <Shield className="h-6 w-6 text-blue-600" />
                 </div>
-                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Transparency</h3>
-                <p className="text-gray-500">One monthly fee, without hidden costs or unexpected increases.</p>
+                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Transparantie</h3>
+                <p className="text-gray-500">Een maandtarief, zonder verborgen kosten of onverwachte stijgingen.</p>
               </div>
             </div>
 
             <div className="mt-24 text-center max-w-3xl mx-auto">
-              <h2 className="text-4xl font-semibold text-gray-900 mb-6">What we aim to achieve</h2>
+              <h2 className="text-4xl font-semibold text-gray-900 mb-6">Wat willen we bereiken?</h2>
               <p className="text-xl text-gray-500">
-                We want you to sell more and retain more margin. While traditional ads can escalate in costs, Klix.ai
-                ensures a sustainable, lasting position higher in the rankings. No results? No payment.
+                Wij willen dat jij meer verkoopt én meer marge overhoudt. Terwijl traditionele advertenties kunnen oplopen in kosten, zorgt Klix.ai voor een duurzame, blijvende positie hoger in de ranking. Geen resultaat? Geen betaling.
               </p>
             </div>
           </div>
@@ -156,9 +153,9 @@ export default function Home() {
         <section id="comparison" className="py-24 bg-gray-50">
           <div className="container max-w-6xl mx-auto px-4">
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-semibold text-gray-900 mb-6">The Klix.ai difference</h2>
+              <h2 className="text-4xl font-semibold text-gray-900 mb-6">Vergelijking</h2>
               <p className="text-xl text-gray-500 max-w-3xl mx-auto">
-                See how our approach compares to traditional advertising methods.
+               Bekijk hoe onze aanpak zich verhoudt tot traditionele reclamemethoden.
               </p>
             </div>
 
@@ -174,8 +171,8 @@ export default function Home() {
                 <div className="space-y-8">
                   <div>
                     <div className="flex items-center justify-between mb-2">
-                      <span className="text-gray-500">Cost Structure</span>
-                      <span className="font-medium text-blue-600">Fixed & Decreasing</span>
+                      <span className="text-gray-500">Kosten</span>
+                      <span className="font-medium text-blue-600">Vast en kan dalen</span>
                     </div>
                     <div className="h-2 w-full bg-gray-100 rounded-full overflow-hidden">
                       <div className="h-full w-[85%] bg-blue-600 rounded-full"></div>
@@ -184,8 +181,8 @@ export default function Home() {
 
                   <div>
                     <div className="flex items-center justify-between mb-2">
-                      <span className="text-gray-500">Risk Level</span>
-                      <span className="font-medium text-blue-600">Minimal</span>
+                      <span className="text-gray-500">Risico</span>
+                      <span className="font-medium text-blue-600">Alleen bij succes</span>
                     </div>
                     <div className="h-2 w-full bg-gray-100 rounded-full overflow-hidden">
                       <div className="h-full w-[95%] bg-blue-600 rounded-full"></div>
@@ -194,8 +191,8 @@ export default function Home() {
 
                   <div>
                     <div className="flex items-center justify-between mb-2">
-                      <span className="text-gray-500">Long-term Value</span>
-                      <span className="font-medium text-blue-600">Excellent</span>
+                      <span className="text-gray-500">Duurzaamheid</span>
+                      <span className="font-medium text-blue-600">Blijvende resultaten</span>
                     </div>
                     <div className="h-2 w-full bg-gray-100 rounded-full overflow-hidden">
                       <div className="h-full w-[90%] bg-blue-600 rounded-full"></div>
@@ -205,7 +202,7 @@ export default function Home() {
                   <div>
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-gray-500">ROI</span>
-                      <span className="font-medium text-blue-600">Guaranteed</span>
+                      <span className="font-medium text-blue-600">Gegarandeerd</span>
                     </div>
                     <div className="h-2 w-full bg-gray-100 rounded-full overflow-hidden">
                       <div className="h-full w-[100%] bg-blue-600 rounded-full"></div>
@@ -219,14 +216,14 @@ export default function Home() {
                   <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center">
                     <div className="w-6 h-6 rounded-full bg-gray-400"></div>
                   </div>
-                  <h3 className="text-2xl font-semibold text-gray-900">Traditional Ads</h3>
+                  <h3 className="text-2xl font-semibold text-gray-900">Traditionele advertenties</h3>
                 </div>
 
                 <div className="space-y-8">
                   <div>
                     <div className="flex items-center justify-between mb-2">
-                      <span className="text-gray-500">Cost Structure</span>
-                      <span className="font-medium text-gray-500">High & Increasing</span>
+                      <span className="text-gray-500">Kosten</span>
+                      <span className="font-medium text-gray-500">Hoog en doorlopend</span>
                     </div>
                     <div className="h-2 w-full bg-gray-100 rounded-full overflow-hidden">
                       <div className="h-full w-[35%] bg-gray-400 rounded-full"></div>
@@ -235,8 +232,8 @@ export default function Home() {
 
                   <div>
                     <div className="flex items-center justify-between mb-2">
-                      <span className="text-gray-500">Risk Level</span>
-                      <span className="font-medium text-gray-500">High</span>
+                      <span className="text-gray-500">Risico</span>
+                      <span className="font-medium text-gray-500">Altijd betalen</span>
                     </div>
                     <div className="h-2 w-full bg-gray-100 rounded-full overflow-hidden">
                       <div className="h-full w-[25%] bg-gray-400 rounded-full"></div>
@@ -245,8 +242,8 @@ export default function Home() {
 
                   <div>
                     <div className="flex items-center justify-between mb-2">
-                      <span className="text-gray-500">Long-term Value</span>
-                      <span className="font-medium text-gray-500">Poor</span>
+                      <span className="text-gray-500">Duurzaamheid</span>
+                      <span className="font-medium text-gray-500">Korte termijn</span>
                     </div>
                     <div className="h-2 w-full bg-gray-100 rounded-full overflow-hidden">
                       <div className="h-full w-[30%] bg-gray-400 rounded-full"></div>
@@ -256,7 +253,7 @@ export default function Home() {
                   <div>
                     <div className="flex items-center justify-between mb-2">
                       <span className="text-gray-500">ROI</span>
-                      <span className="font-medium text-gray-500">Unpredictable</span>
+                      <span className="font-medium text-gray-500">Onvoorspelbaar</span>
                     </div>
                     <div className="h-2 w-full bg-gray-100 rounded-full overflow-hidden">
                       <div className="h-full w-[40%] bg-gray-400 rounded-full"></div>
@@ -267,15 +264,15 @@ export default function Home() {
             </div>
 
             <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
-              <h3 className="text-2xl font-semibold text-gray-900 mb-8 text-center">Key Differentiators</h3>
+              <h3 className="text-2xl font-semibold text-gray-900 mb-8 text-center">Belangrijkste verschillen</h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="text-center">
                   <div className="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center mx-auto mb-4">
                     <DollarSign className="h-8 w-8 text-blue-600" />
                   </div>
-                  <h4 className="text-xl font-semibold text-gray-900 mb-2">Predictable Costs</h4>
+                  <h4 className="text-xl font-semibold text-gray-900 mb-2">Voorspelbare kosten</h4>
                   <p className="text-gray-500">
-                    Fixed monthly fee that can decrease over time as your performance improves
+                    Eén duidelijke prijs, die kan dalen naarmate jouw resultaten stijgen.
                   </p>
                 </div>
 
@@ -283,16 +280,16 @@ export default function Home() {
                   <div className="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center mx-auto mb-4">
                     <LineChart className="h-8 w-8 text-blue-600" />
                   </div>
-                  <h4 className="text-xl font-semibold text-gray-900 mb-2">Sustainable Growth</h4>
-                  <p className="text-gray-500">Long-lasting results that continue even after you stop paying</p>
+                  <h4 className="text-xl font-semibold text-gray-900 mb-2">Duurzame groei</h4>
+                  <p className="text-gray-500">Blijvende resultaten die zichzelf voortzetten zelfs na het stoppen met betalen</p>
                 </div>
 
                 <div className="text-center">
                   <div className="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center mx-auto mb-4">
                     <Shield className="h-8 w-8 text-blue-600" />
                   </div>
-                  <h4 className="text-xl font-semibold text-gray-900 mb-2">Zero Risk</h4>
-                  <p className="text-gray-500">No results? No payment. We only succeed when you succeed</p>
+                  <h4 className="text-xl font-semibold text-gray-900 mb-2">Geen risico</h4>
+                  <p className="text-gray-500">Geen resultaat? Geen betaling. Wij slagen alleen als u slaagt.</p>
                 </div>
               </div>
             </div>
@@ -303,9 +300,9 @@ export default function Home() {
         <section id="approach" className="py-24">
           <div className="container max-w-6xl mx-auto px-4">
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-semibold text-gray-900 mb-6">Our Approach</h2>
+              <h2 className="text-4xl font-semibold text-gray-900 mb-6">Onze aanpak</h2>
               <p className="text-xl text-gray-500 max-w-3xl mx-auto">
-                A simple, effective process designed to maximize your results.
+                Een eenvoudige, effectieve proces ontworpen om jouw resultaten te maximaliseren.
               </p>
             </div>
 
@@ -314,9 +311,9 @@ export default function Home() {
                 <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-6">
                   <Target className="h-6 w-6 text-blue-600" />
                 </div>
-                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Strategic Guidance</h3>
+                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Strategische begeleiding</h3>
                 <p className="text-gray-500">
-                  Through a personal meeting or video call, we&apos;ll analyze your product performance together.
+                  Via een persoonlijke meeting of videocall kijken we samen naar je productprestaties.
                 </p>
               </div>
 
@@ -324,9 +321,9 @@ export default function Home() {
                 <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-6">
                   <Clock className="h-6 w-6 text-blue-600" />
                 </div>
-                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Interim Check</h3>
+                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Tussentijdse evaluatie</h3>
                 <p className="text-gray-500">
-                  In the first month, we evaluate after two weeks. No growth? You pay nothing.
+                  In de eerste maand, evalueren we de resultaten na twee weken. Geen groei? Geen betaling.
                 </p>
               </div>
 
@@ -334,17 +331,17 @@ export default function Home() {
                 <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-6">
                   <DollarSign className="h-6 w-6 text-blue-600" />
                 </div>
-                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Fixed Monthly Fee</h3>
-                <p className="text-gray-500">One clear price that can decrease as your results improve.</p>
+                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Vaste maandprijs</h3>
+                <p className="text-gray-500">Eén duidelijke prijs, die kan dalen naarmate jouw resultaten stijgen.</p>
               </div>
 
               <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
                 <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-6">
                   <Percent className="h-6 w-6 text-blue-600" />
                 </div>
-                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Save up to 10x</h3>
+                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Bespaar tot 10x</h3>
                 <p className="text-gray-500">
-                  Thanks to our method, you benefit from more visibility without the high costs of traditional ads.
+                  Dankzij onze methode profiteer je van meer zichtbaarheid zonder de hoge kosten van traditionele advertenties.
                 </p>
               </div>
             </div>
@@ -355,9 +352,9 @@ export default function Home() {
         <section className="py-24 bg-gray-50">
           <div className="container max-w-6xl mx-auto px-4">
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-semibold text-gray-900 mb-6">Our Technology</h2>
+              <h2 className="text-4xl font-semibold text-gray-900 mb-6">Onze technologie</h2>
               <p className="text-xl text-gray-500 max-w-3xl mx-auto">
-                Powered by cutting-edge AI and machine learning algorithms to optimize your product visibility.
+                Aangedreven door geavanceerde AI- en machine learning-algoritmen om de zichtbaarheid van uw product te optimaliseren.
               </p>
             </div>
 
@@ -366,50 +363,49 @@ export default function Home() {
                 <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-6">
                   <Sparkles className="h-6 w-6 text-blue-600" />
                 </div>
-                <h3 className="text-2xl font-semibold text-gray-900 mb-4">AI-Powered Analytics</h3>
+                <h3 className="text-2xl font-semibold text-gray-900 mb-4">AI-Powered SEO</h3>
                 <p className="text-gray-500 mb-6">
-                  Our algorithms analyze market trends and consumer behavior in real-time to optimize your product
-                  positioning.
+                  Onze slimme algoritmes bouwen actief hoogwaardige backlinks op om je zoekresultaten te verbeteren. Hierdoor stijgt uw positie in de ranking.
                 </p>
-                <div className="h-1 w-full bg-gray-100 rounded-full overflow-hidden">
+                {/* <div className="h-1 w-full bg-gray-100 rounded-full overflow-hidden">
                   <div className="h-full w-[85%] bg-blue-600 rounded-full"></div>
                 </div>
                 <div className="mt-2 text-sm text-right text-gray-500">85% more effective</div>
-              </div>
+              </div> */}
 
               <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
                 <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-6">
                   <BarChart3 className="h-6 w-6 text-blue-600" />
                 </div>
-                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Predictive Modeling</h3>
+                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Sneller en effectiever dan uw concurrenten</h3>
                 <p className="text-gray-500 mb-6">
-                  Forecast market changes and adapt your strategy before your competitors even notice the shift.
+                 Door continue optimalisatie en toepassing van de nieuwste SEO-strategieën, blijf je de markt voor.
                 </p>
-                <div className="h-1 w-full bg-gray-100 rounded-full overflow-hidden">
+                {/* <div className="h-1 w-full bg-gray-100 rounded-full overflow-hidden">
                   <div className="h-full w-[92%] bg-blue-600 rounded-full"></div>
                 </div>
                 <div className="mt-2 text-sm text-right text-gray-500">92% accuracy rate</div>
-              </div>
+              </div> */}
 
               <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
                 <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-6">
                   <LineChart className="h-6 w-6 text-blue-600" />
                 </div>
-                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Real-time Dashboard</h3>
+                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Inzicht in resultaten</h3>
                 <p className="text-gray-500 mb-6">
-                  Monitor your performance metrics with our intuitive dashboard that updates in real-time.
+                  Alle prestaties kunt u zelf in uw verkoop account inzien. Wij analyseren, sturen bij en zorgen voor groei.
                 </p>
-                <div className="h-1 w-full bg-gray-100 rounded-full overflow-hidden">
+                {/* <div className="h-1 w-full bg-gray-100 rounded-full overflow-hidden">
                   <div className="h-full w-[99%] bg-blue-600 rounded-full"></div>
                 </div>
                 <div className="mt-2 text-sm text-right text-gray-500">99.9% uptime</div>
               </div>
-            </div>
+            </div> */}
 
             <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
               <div className="flex flex-col md:flex-row gap-12">
                 <div className="flex-1">
-                  <h3 className="text-2xl font-semibold text-gray-900 mb-6">How Our Algorithm Works</h3>
+                  <h3 className="text-2xl font-semibold text-gray-900 mb-6">Hoe onze algoritme werkt</h3>
                   <ol className="space-y-6">
                     <li className="flex gap-4">
                       <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-medium">
@@ -418,7 +414,7 @@ export default function Home() {
                       <div>
                         <p className="font-medium text-gray-900 mb-1">Data Collection</p>
                         <p className="text-gray-500">
-                          We gather market data and analyze your product&apos;s current position
+                          We verzamelen marktdata en analyseren de huidige positie van uw product.
                         </p>
                       </div>
                     </li>
@@ -427,8 +423,8 @@ export default function Home() {
                         2
                       </div>
                       <div>
-                        <p className="font-medium text-gray-900 mb-1">Pattern Recognition</p>
-                        <p className="text-gray-500">Our AI identifies patterns and opportunities for optimization</p>
+                        <p className="font-medium text-gray-900 mb-1">Patroonherkenning</p>
+                        <p className="text-gray-500">Onze AI identificeert patronen en mogelijkheden voor optimalisatie</p>
                       </div>
                     </li>
                     <li className="flex gap-4">
@@ -436,8 +432,8 @@ export default function Home() {
                         3
                       </div>
                       <div>
-                        <p className="font-medium text-gray-900 mb-1">Strategy Implementation</p>
-                        <p className="text-gray-500">We implement targeted strategies to improve visibility</p>
+                        <p className="font-medium text-gray-900 mb-1">Strategie implementatie</p>
+                        <p className="text-gray-500">We implementeren doelgerichte strategieën om zichtbaarheid te verbeteren</p>
                       </div>
                     </li>
                     <li className="flex gap-4">
@@ -445,8 +441,8 @@ export default function Home() {
                         4
                       </div>
                       <div>
-                        <p className="font-medium text-gray-900 mb-1">Continuous Optimization</p>
-                        <p className="text-gray-500">We constantly refine our approach based on performance data</p>
+                        <p className="font-medium text-gray-900 mb-1">Continue optimalisatie</p>
+                        <p className="text-gray-500">We blijven onze aanpak aanpassen op basis van data en de laatste trends.</p>
                       </div>
                     </li>
                   </ol>
@@ -475,31 +471,31 @@ export default function Home() {
         {/* CTA Section */}
         <section className="py-24" id="contact">
           <div className="container max-w-6xl mx-auto px-4 text-center">
-            <h2 className="text-4xl font-semibold text-gray-900 mb-6">Ready to reduce your marketing budget?</h2>
+            <h2 className="text-4xl font-semibold text-gray-900 mb-6">Klaar om uw marketingbudget te verminderen?</h2>
             <div className="container max-w-6xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-semibold text-gray-900 mb-6">Get in Touch</h2>
+          <h2 className="text-4xl font-semibold text-gray-900 mb-6">Neem contact met ons op</h2>
           <p className="text-xl text-gray-500 mb-8">
-            We would love to hear from you! Please fill out the form below.
+            We zouden graag van u horen! Vul het formulier hieronder in.
           </p>
           <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
             <input type="hidden" name="access_key" value="29043b1b-9d26-4ef6-9443-68d1be65ab21" />
             <input
               type="text"
               name="name"
-              placeholder="Your Name"
+              placeholder="Naam"
               required
               className="w-full p-3 border border-gray-300 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-blue-600 bg-white"
             />
             <input
               type="email"
               name="email"
-              placeholder="Your Email"
+              placeholder="Email"
               required
               className="w-full p-3 border border-gray-300 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-blue-600 bg-white "
             />
             <textarea
               name="message"
-              placeholder="Your Message"
+              placeholder="Bericht"
               required
               className="w-full p-3 border border-gray-300 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-blue-600 bg-white "
               rows={4}
@@ -508,7 +504,7 @@ export default function Home() {
               type="submit"
               className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full"
             >
-              Submit
+              Verzenden
             </button>
           </form>
         </div>
