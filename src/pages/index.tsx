@@ -540,7 +540,7 @@ export default function Home() {
           </div>
 
           <div className="pt-8 border-t border-gray-800 text-center text-sm text-gray-500">
-            <p>&copy; {new Date().getFullYear()} Klix.ai B.V. - All rights reserved</p>
+            <p>&copy; {new Date().getFullYear()} Klix.ai - All rights reserved</p>
           </div>
         </div>
       </footer>
