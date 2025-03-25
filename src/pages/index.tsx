@@ -35,7 +35,7 @@ export default function Home() {
             </a>
           </nav>
           <a href="#contact">
-          <Button className="bg-blue-600 hover:bg-blue-700 rounded-full px-5 -">Direct starten</Button>
+            <Button className="bg-blue-600 hover:bg-blue-700 rounded-full px-5">Direct starten</Button>
           </a>
         </div>
       </header>
@@ -367,11 +367,7 @@ export default function Home() {
                 <p className="text-gray-500 mb-6">
                   Onze slimme algoritmes bouwen actief hoogwaardige backlinks op om je zoekresultaten te verbeteren. Hierdoor stijgt uw positie in de ranking.
                 </p>
-                {/* <div className="h-1 w-full bg-gray-100 rounded-full overflow-hidden">
-                  <div className="h-full w-[85%] bg-blue-600 rounded-full"></div>
-                </div>
-                <div className="mt-2 text-sm text-right text-gray-500">85% more effective</div>
-              </div> */}
+              </div>
 
               <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
                 <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-6">
@@ -379,13 +375,9 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">Sneller en effectiever dan uw concurrenten</h3>
                 <p className="text-gray-500 mb-6">
-                 Door continue optimalisatie en toepassing van de nieuwste SEO-strategieën, blijf je de markt voor.
+                  Door continue optimalisatie en toepassing van de nieuwste SEO-strategieën, blijf je de markt voor.
                 </p>
-                {/* <div className="h-1 w-full bg-gray-100 rounded-full overflow-hidden">
-                  <div className="h-full w-[92%] bg-blue-600 rounded-full"></div>
-                </div>
-                <div className="mt-2 text-sm text-right text-gray-500">92% accuracy rate</div>
-              </div> */}
+              </div>
 
               <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
                 <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-6">
@@ -395,71 +387,67 @@ export default function Home() {
                 <p className="text-gray-500 mb-6">
                   Alle prestaties kunt u zelf in uw verkoop account inzien. Wij analyseren, sturen bij en zorgen voor groei.
                 </p>
-                {/* <div className="h-1 w-full bg-gray-100 rounded-full overflow-hidden">
-                  <div className="h-full w-[99%] bg-blue-600 rounded-full"></div>
-                </div>
-                <div className="mt-2 text-sm text-right text-gray-500">99.9% uptime</div>
               </div>
-            </div> */}
 
-            <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
-              <div className="flex flex-col md:flex-row gap-12">
-                <div className="flex-1">
-                  <h3 className="text-2xl font-semibold text-gray-900 mb-6">Hoe onze algoritme werkt</h3>
-                  <ol className="space-y-6">
-                    <li className="flex gap-4">
-                      <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-medium">
-                        1
+              <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm">
+                <div className="flex flex-col md:flex-row gap-12">
+                  <div className="flex-1">
+                    <h3 className="text-2xl font-semibold text-gray-900 mb-6">Hoe onze algoritme werkt</h3>
+                    <ol className="space-y-6">
+                      <li className="flex gap-4">
+                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-medium">
+                          1
+                        </div>
+                        <div>
+                          <p className="font-medium text-gray-900 mb-1">Data Collection</p>
+                          <p className="text-gray-500">
+                            We verzamelen marktdata en analyseren de huidige positie van uw product.
+                          </p>
+                        </div>
+                      </li>
+                      <li className="flex gap-4">
+                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-medium">
+                          2
+                        </div>
+                        <div>
+                          <p className="font-medium text-gray-900 mb-1">Patroonherkenning</p>
+                          <p className="text-gray-500">Onze AI identificeert patronen en mogelijkheden voor optimalisatie</p>
+                        </div>
+                      </li>
+                      <li className="flex gap-4">
+                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-medium">
+                          3
+                        </div>
+                        <div>
+                          <p className="font-medium text-gray-900 mb-1">Strategie implementatie</p>
+                          <p className="text-gray-500">We implementeren doelgerichte strategieën om zichtbaarheid te verbeteren</p>
+                        </div>
+                      </li>
+                      <li className="flex gap-4">
+                        <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-medium">
+                          4
+                        </div>
+                        <div>
+                          <p className="font-medium text-gray-900 mb-1">Continue optimalisatie</p>
+                          <p className="text-gray-500">We blijven onze aanpak aanpassen op basis van data en de laatste trends.</p>
+                        </div>
+                      </li>
+                    </ol>
+                  </div>
+                  <div className="flex-1 flex items-center justify-center">
+                    <div className="relative w-full max-w-[300px] aspect-square">
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="w-[80%] h-[80%] rounded-full border-[1px] border-blue-200 animate-[spin_20s_linear_infinite]"></div>
                       </div>
-                      <div>
-                        <p className="font-medium text-gray-900 mb-1">Data Collection</p>
-                        <p className="text-gray-500">
-                          We verzamelen marktdata en analyseren de huidige positie van uw product.
-                        </p>
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="w-[60%] h-[60%] rounded-full border-[1px] border-blue-300 animate-[spin_15s_linear_infinite_reverse]"></div>
                       </div>
-                    </li>
-                    <li className="flex gap-4">
-                      <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-medium">
-                        2
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="w-[40%] h-[40%] rounded-full border-[1px] border-blue-400 animate-[spin_10s_linear_infinite]"></div>
                       </div>
-                      <div>
-                        <p className="font-medium text-gray-900 mb-1">Patroonherkenning</p>
-                        <p className="text-gray-500">Onze AI identificeert patronen en mogelijkheden voor optimalisatie</p>
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="w-[20%] h-[20%] rounded-full bg-blue-600 animate-pulse"></div>
                       </div>
-                    </li>
-                    <li className="flex gap-4">
-                      <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-medium">
-                        3
-                      </div>
-                      <div>
-                        <p className="font-medium text-gray-900 mb-1">Strategie implementatie</p>
-                        <p className="text-gray-500">We implementeren doelgerichte strategieën om zichtbaarheid te verbeteren</p>
-                      </div>
-                    </li>
-                    <li className="flex gap-4">
-                      <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 font-medium">
-                        4
-                      </div>
-                      <div>
-                        <p className="font-medium text-gray-900 mb-1">Continue optimalisatie</p>
-                        <p className="text-gray-500">We blijven onze aanpak aanpassen op basis van data en de laatste trends.</p>
-                      </div>
-                    </li>
-                  </ol>
-                </div>
-                <div className="flex-1 flex items-center justify-center">
-                  <div className="relative w-full max-w-[300px] aspect-square">
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-[80%] h-[80%] rounded-full border-[1px] border-blue-200 animate-[spin_20s_linear_infinite]"></div>
-                    </div>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-[60%] h-[60%] rounded-full border-[1px] border-blue-300 animate-[spin_15s_linear_infinite_reverse]"></div>
-                    </div>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-[40%] h-[40%] rounded-full border-[1px] border-blue-400 animate-[spin_10s_linear_infinite]"></div>
-                    </div>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-[20%] h-[20%] rounded-full bg-blue-600 animate-pulse"></div>
                     </div>
                   </div>
                 </div>
@@ -473,41 +461,41 @@ export default function Home() {
           <div className="container max-w-6xl mx-auto px-4 text-center">
             <h2 className="text-4xl font-semibold text-gray-900 mb-6">Klaar om uw marketingbudget te verminderen?</h2>
             <div className="container max-w-6xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-semibold text-gray-900 mb-6">Neem contact met ons op</h2>
-          <p className="text-xl text-gray-500 mb-8">
-            We zouden graag van u horen! Vul het formulier hieronder in.
-          </p>
-          <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
-            <input type="hidden" name="access_key" value="29043b1b-9d26-4ef6-9443-68d1be65ab21" />
-            <input
-              type="text"
-              name="name"
-              placeholder="Naam"
-              required
-              className="w-full p-3 border border-gray-300 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-blue-600 bg-white"
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              required
-              className="w-full p-3 border border-gray-300 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-blue-600 bg-white "
-            />
-            <textarea
-              name="message"
-              placeholder="Bericht"
-              required
-              className="w-full p-3 border border-gray-300 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-blue-600 bg-white "
-              rows={4}
-            ></textarea>
-            <button
-              type="submit"
-              className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full"
-            >
-              Verzenden
-            </button>
-          </form>
-        </div>
+              <h2 className="text-4xl font-semibold text-gray-900 mb-6">Neem contact met ons op</h2>
+              <p className="text-xl text-gray-500 mb-8">
+                We zouden graag van u horen! Vul het formulier hieronder in.
+              </p>
+              <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
+                <input type="hidden" name="access_key" value="29043b1b-9d26-4ef6-9443-68d1be65ab21" />
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Naam"
+                  required
+                  className="w-full p-3 border border-gray-300 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-blue-600 bg-white"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  required
+                  className="w-full p-3 border border-gray-300 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-blue-600 bg-white "
+                />
+                <textarea
+                  name="message"
+                  placeholder="Bericht"
+                  required
+                  className="w-full p-3 border border-gray-300 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-blue-600 bg-white "
+                  rows={4}
+                ></textarea>
+                <button
+                  type="submit"
+                  className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full"
+                >
+                  Verzenden
+                </button>
+              </form>
+            </div>
           </div>
         </section>
       </main>
