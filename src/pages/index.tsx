@@ -401,7 +401,7 @@ export default function Home() {
                         <div>
                           <p className="font-medium text-gray-900 mb-1">Data Collection</p>
                           <p className="text-gray-500">
-                            We verzamelen marktdata en analyseren de huidige positie van uw product.
+                            We gather market data and analyze your product's current position
                           </p>
                         </div>
                       </li>
@@ -411,7 +411,7 @@ export default function Home() {
                         </div>
                         <div>
                           <p className="font-medium text-gray-900 mb-1">Patroonherkenning</p>
-                          <p className="text-gray-500">Onze AI identificeert patronen en mogelijkheden voor optimalisatie</p>
+                          <p className="text-gray-500">Our AI identifies patterns and opportunities for optimization</p>
                         </div>
                       </li>
                       <li className="flex gap-4">
@@ -420,7 +420,7 @@ export default function Home() {
                         </div>
                         <div>
                           <p className="font-medium text-gray-900 mb-1">Strategie implementatie</p>
-                          <p className="text-gray-500">We implementeren doelgerichte strategieën om zichtbaarheid te verbeteren</p>
+                          <p className="text-gray-500">We implement targeted strategies to improve visibility</p>
                         </div>
                       </li>
                       <li className="flex gap-4">
@@ -429,24 +429,24 @@ export default function Home() {
                         </div>
                         <div>
                           <p className="font-medium text-gray-900 mb-1">Continue optimalisatie</p>
-                          <p className="text-gray-500">We blijven onze aanpak aanpassen op basis van data en de laatste trends.</p>
+                          <p className="text-gray-500">We constantly refine our approach based on performance data</p>
                         </div>
                       </li>
                     </ol>
                   </div>
-                  <div className="flex-1 flex items-center justify-center">
-                    <div className="relative w-full max-w-[300px] aspect-square">
+                  <div className="flex-1 flex items-center justify-center mt-8 md:mt-0">
+                    <div className="relative w-full max-w-[400px] aspect-square">
                       <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="w-[80%] h-[80%] rounded-full border-[1px] border-blue-200 animate-[spin_20s_linear_infinite]"></div>
+                        <div className="w-[85%] h-[85%] rounded-full border-2 border-blue-200 animate-[spin_20s_linear_infinite]"></div>
                       </div>
                       <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="w-[60%] h-[60%] rounded-full border-[1px] border-blue-300 animate-[spin_15s_linear_infinite_reverse]"></div>
+                        <div className="w-[65%] h-[65%] rounded-full border-2 border-blue-300 animate-[spin_15s_linear_infinite_reverse]"></div>
                       </div>
                       <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="w-[40%] h-[40%] rounded-full border-[1px] border-blue-400 animate-[spin_10s_linear_infinite]"></div>
+                        <div className="w-[45%] h-[45%] rounded-full border-2 border-blue-400 animate-[spin_10s_linear_infinite]"></div>
                       </div>
                       <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="w-[20%] h-[20%] rounded-full bg-blue-600 animate-pulse"></div>
+                        <div className="w-[25%] h-[25%] rounded-full bg-blue-600 animate-pulse"></div>
                       </div>
                     </div>
                   </div>
