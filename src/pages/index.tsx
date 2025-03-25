@@ -35,7 +35,7 @@ export default function Home() {
             </a>
           </nav>
           <a href="#contact">
-            <Button className="bg-blue-600 hover:bg-blue-700 rounded-full px-5">Direct starten</Button>
+            <Button className="bg-blue-600 hover:bg-blue-700 rounded-full px-5">Start nu</Button>
           </a>
         </div>
       </header>
