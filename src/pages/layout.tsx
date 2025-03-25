@@ -1,14 +1,14 @@
 import type React from "react"
 import { Inter } from "next/font/google"
-import "./globals.css"
+import "../styles/globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata = {
-  title: "Klix.ai - AI-Powered Marketing",
-  description: "Klix.ai helps your product get the visibility it deserves.",
-}
+// export const metadata = {
+//   title: "Klix.ai - AI-Powered Marketing",
+//   description: "Klix.ai helps your product get the visibility it deserves.",
+// }
 
 export default function RootLayout({
   children,

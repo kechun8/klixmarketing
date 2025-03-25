@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import {
   Check,
-  ArrowRight,
   Sparkles,
   BarChart3,
   LineChart,
@@ -85,7 +84,7 @@ export default function Home() {
               <div>
                 <h2 className="text-3xl font-semibold text-gray-900 mb-4">No cure, no pay</h2>
                 <p className="text-xl text-gray-500">
-                  If your product doesn't perform better as promised, you don't pay. It's that simple. We take the risk,
+                  If your product doesn&apos;t perform better as promised, you don&apos;t pay. It&apos;s that simple. We take the risk,
                   you get the results.
                 </p>
               </div>
@@ -94,7 +93,7 @@ export default function Home() {
             <div className="text-center max-w-3xl mx-auto">
               <h2 className="text-4xl font-semibold text-gray-900 mb-6">What is Klix.ai?</h2>
               <p className="text-xl text-gray-500 mb-8">
-                We're the smart, scalable solution that elevates your product in online platforms. Instead of constantly
+                We&apos;re the smart, scalable solution that elevates your product in online platforms. Instead of constantly
                 paying for expensive ads, we offer one clear monthly fee.
               </p>
               <div className="inline-flex items-center gap-2 text-blue-600 font-medium">
@@ -315,7 +314,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-semibold text-gray-900 mb-4">Strategic Guidance</h3>
                 <p className="text-gray-500">
-                  Through a personal meeting or video call, we'll analyze your product performance together.
+                  Through a personal meeting or video call, we&apos;ll analyze your product performance together.
                 </p>
               </div>
 
@@ -417,7 +416,7 @@ export default function Home() {
                       <div>
                         <p className="font-medium text-gray-900 mb-1">Data Collection</p>
                         <p className="text-gray-500">
-                          We gather market data and analyze your product's current position
+                          We gather market data and analyze your product&apos;s current position
                         </p>
                       </div>
                     </li>
