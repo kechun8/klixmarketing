@@ -401,7 +401,7 @@ export default function Home() {
                         <div>
                           <p className="font-medium text-gray-900 mb-1">Data Collection</p>
                           <p className="text-gray-500">
-                            We gather market data and analyze your product's current position
+                            We verzamelen data en analyseren de huidige positie van uw product.
                           </p>
                         </div>
                       </li>
