@@ -92,7 +92,7 @@ export default function Home() {
             <div className="text-center max-w-3xl mx-auto">
               <h2 className="text-4xl font-semibold text-gray-900 mb-6">Wat is Klix.ai?</h2>
               <p className="text-xl text-gray-500 mb-8">
-                Wij zijn de slimme, schaalbare oplossing die jouw product hoger in online platformen brengt. In plaats van telkens te betalen voor dure advertenties, bieden wij één helder maandtarief. Levert onze aanpak niet op wat we beloven? Dan betaal je niet.
+                Wij zijn de slimme, schaalbare oplossing die jouw product hoger in online platformen brengt. In plaats van telkens te betalen voor dure advertenties, bieden wij één helder maandtarief.
               </p>
               <div className="inline-flex items-center gap-2 text-blue-600 font-medium">
                 <Check className="h-5 w-5" />
@@ -518,7 +518,7 @@ export default function Home() {
 
             <div>
               <h4 className="text-white font-semibold text-lg mb-4">Contact</h4>
-              <p className="text-gray-400">Telefoon: </p>
+              <p className="text-gray-400">Telefoon: +31 6 44 33 77 43</p>
               <p className="text-gray-400">Email: info@klixmarketing.nl</p>
               <p className="text-gray-400 mt-2">Mon-Fri: 09:00 - 17:30</p>
             </div>
