@@ -518,7 +518,7 @@ export default function Home() {
 
             <div>
               <h4 className="text-white font-semibold text-lg mb-4">Contact</h4>
-              <p className="text-gray-400">Telefoon: +31 6 44 33 77 43</p>
+              <p className="text-gray-400">Telefoon: +31 6 44337743</p>
               <p className="text-gray-400">Email: info@klixmarketing.nl</p>
               <p className="text-gray-400 mt-2">Mon-Fri: 09:00 - 17:30</p>
             </div>
