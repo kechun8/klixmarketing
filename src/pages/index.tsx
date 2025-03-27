@@ -26,10 +26,10 @@ export default function Home() {
               Features
             </a>
             <a href="#approach" className="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors">
-              Approach
+              Aanpak
             </a>
             <a href="#comparison" className="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors">
-              Comparison
+              Vergelijking
             </a>
           </nav>
           <a href="#contact">
