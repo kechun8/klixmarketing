@@ -16,10 +16,12 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-white ">
       {/* Header */}
-      <header className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-gray-100 justify-around">
-        <div className="container flex h-16 items-center justify-around">
-          <div className="flex items-center gap-2">
+      <header className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-gray-100">
+        <div className="container mx-auto flex h-16 items-center justify-between px-4">
+          <div className="flex items-center gap-2" id="home">
+            <a href="#home">
             <span className="text-xl font-semibold text-gray-900">Klix.ai</span>
+            </a>
           </div>
           <nav className="hidden md:flex gap-8">
             <a href="#features" className="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors">
@@ -70,6 +72,17 @@ export default function Home() {
                 </Button> */}
               </div>
               <p className="text-sm text-gray-500">2 weken gratis. Geen registratie nodig.</p>
+              
+              {/* YouTube Video Embed */}
+              <div className="mt-12 w-full max-w-3xl aspect-video rounded-xl overflow-hidden shadow-lg">
+                <iframe 
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/G9wIhL3O9Ec" 
+                  title="Klix.ai Promotional Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowFullScreen>
+                </iframe>
+              </div>
             </div>
           </div>
         </section>
