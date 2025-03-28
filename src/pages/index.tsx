@@ -18,7 +18,7 @@ export default function Home() {
       {/* Header */}
       <header className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-gray-100">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
-          <div className="flex items-center gap-2" id="home">
+          <div className="flex items-center gap-2">
             <a href="#home">
             <span className="text-xl font-semibold text-gray-900">Klix.ai</span>
             </a>
@@ -51,7 +51,7 @@ export default function Home() {
               <Badge className="mb-6 px-3 py-1 bg-blue-50 text-blue-600 hover:bg-blue-50 rounded-full">
                 AI-Powered Marketing
               </Badge>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-gray-900 mb-6">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-gray-900 mb-6" id="home">
                 Het beste product moet <span className="text-blue-600">opvallen</span>
               </h1>
               <p className="text-xl text-gray-500 max-w-3xl mb-8">
