@@ -477,7 +477,7 @@ export default function Home() {
                 We zouden graag van u horen! Vul het formulier hieronder in.
               </p>
               <form action="https://api.web3forms.com/submit" method="POST" className="space-y-4">
-                <input type="hidden" name="access_key" value="29043b1b-9d26-4ef6-9443-68d1be65ab21" />
+                <input type="hidden" name="access_key" value="ad9e0091-7e96-4771-ad68-11c1cb13a14e"/>
                 <input
                   type="text"
                   name="name"
