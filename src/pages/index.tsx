@@ -27,7 +27,7 @@ export default function Home() {
             <a href="#features" className="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors">
               Features
             </a>
-            <a href="#approach" className="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors">
+            <a href="#approach" className="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors text-center">
               Aanpak
             </a>
             <a href="#comparison" className="text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors">
