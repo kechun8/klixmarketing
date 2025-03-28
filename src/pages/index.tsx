@@ -42,7 +42,7 @@ export default function Home() {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="py-32 md:py-40 relative overflow-hidden">
+        <section className="py-32 md:py-40 relative overflow-hidden" id="home">
           <div className="absolute inset-0 -z-10">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-blue-50 rounded-full opacity-50 blur-3xl"></div>
           </div>
@@ -51,7 +51,7 @@ export default function Home() {
               <Badge className="mb-6 px-3 py-1 bg-blue-50 text-blue-600 hover:bg-blue-50 rounded-full">
                 AI-Powered Marketing
               </Badge>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-gray-900 mb-6" id="home">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-gray-900 mb-6">
                 Het beste product moet <span className="text-blue-600">opvallen</span>
               </h1>
               <p className="text-xl text-gray-500 max-w-3xl mb-8">
