@@ -1,7 +1,11 @@
 {
-  "/": "pages/index.js",
-  "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/privacy-policy": "pages/privacy-policy.js",
-  "/terms-conditions": "pages/terms-conditions.js"
+  "/_error": "pages/_error.js",
+  "/api/hello": "pages/api/hello.js",
+  "/_app": "pages/_app.js",
+  "/": "pages/index.html",
+  "/privacy-policy": "pages/privacy-policy.html",
+  "/terms-conditions": "pages/terms-conditions.html",
+  "/layout": "pages/layout.html",
+  "/404": "pages/404.html"
 }

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
+import Link from "next/link"
 import {
   Check,
   Sparkles,
@@ -539,15 +540,15 @@ export default function Home() {
             <div>
               <h4 className="text-white font-semibold text-lg mb-4">Links</h4>
               <div className="space-y-2">
-                <a href="/terms-conditions" className="block text-gray-400 hover:text-white transition-colors">
+                <Link href="/terms-conditions" className="block text-gray-400 hover:text-white transition-colors">
                   Terms & Conditions
-                </a>
-                <a href="/privacy-policy" className="block text-gray-400 hover:text-white transition-colors">
+                </Link>
+                <Link href="/privacy-policy" className="block text-gray-400 hover:text-white transition-colors">
                   Privacy Policy
-                </a>
-                <a href="/privacy-policy" className="block text-gray-400 hover:text-white transition-colors">
+                </Link>
+                <Link href="/cookie-policy" className="block text-gray-400 hover:text-white transition-colors">
                   Cookie Policy
-                </a>
+                </Link>
               </div>
             </div>
           </div>

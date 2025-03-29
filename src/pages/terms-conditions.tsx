@@ -32,7 +32,7 @@ export default function TermsAndConditions() {
 
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-600 mb-8">
-                Deze algemene voorwaarden zijn van toepassing op alle aanbiedingen en overeenkomsten van Klix Marketing (hierna "Klix.ai" of "wij"), handelend onder de productnaam Klix.ai, gevestigd te Rigoletto 253 Capelle aan den IJssel 2907 JG, ingeschreven bij de Kamer van Koophandel onder nummer 96245719. Door gebruik te maken van onze diensten of een overeenkomst met ons te sluiten, ga je akkoord met deze voorwaarden.
+                Deze algemene voorwaarden zijn van toepassing op alle aanbiedingen en overeenkomsten van Klix Marketing (hierna &quot;Klix.ai&quot; of &quot;wij&quot;), handelend onder de productnaam Klix.ai, gevestigd te Rigoletto 253 Capelle aan den IJssel 2907 JG, ingeschreven bij de Kamer van Koophandel onder nummer 96245719. Door gebruik te maken van onze diensten of een overeenkomst met ons te sluiten, ga je akkoord met deze voorwaarden.
               </p>
 
               {/* Section 1 */}
@@ -42,14 +42,14 @@ export default function TermsAndConditions() {
                 <div className="mb-6">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">1.1 Softwareoplossing voor marketplaces</h3>
                   <p className="text-gray-600">
-                    Klix.ai is een softwareoplossing van Klix Marketing, gericht op het vergroten van de zichtbaarheid van verkooppagina's op diverse online marketplaces. Het doel is dat jouw producten sneller gevonden worden door de juiste doelgroep, wat leidt tot meer bezoekers en hogere verkoopcijfers.
+                    Klix.ai is een softwareoplossing van Klix Marketing, gericht op het vergroten van de zichtbaarheid van verkooppagina&lsquo;s op diverse online marketplaces. Het doel is dat jouw producten sneller gevonden worden door de juiste doelgroep, wat leidt tot meer bezoekers en hogere verkoopcijfers.
                   </p>
                 </div>
                 
                 <div className="mb-6">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">1.2 Gerichte promotie en relevante verwijzingen</h3>
                   <p className="text-gray-600">
-                    Onze werkwijze omvat onder meer het creëren en plaatsen van koppelingen op externe bronnen, zodat jouw verkooppagina's op een natuurlijke en waardevolle manier onder de aandacht komen. Deze strategie is datagedreven: we volgen continu de prestaties en sturen direct bij als dat nodig is.
+                    Onze werkwijze omvat onder meer het creëren en plaatsen van koppelingen op externe bronnen, zodat jouw verkooppagina&lsquo;s op een natuurlijke en waardevolle manier onder de aandacht komen. Deze strategie is datagedreven: we volgen continu de prestaties en sturen direct bij als dat nodig is.
                   </p>
                 </div>
                 
@@ -63,7 +63,7 @@ export default function TermsAndConditions() {
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">1.4 Geen garanties, wel inspanning</h3>
                   <p className="text-gray-600">
-                    Wij zetten ons volledig in om de zichtbaarheid en prestaties van je verkooppagina's te verbeteren, maar kunnen geen absolute garantie geven op specifieke posities of zoekresultaten, aangezien marketplace-algoritmes en andere factoren buiten onze controle vallen. We verlenen daarom een inspanningsverplichting en geen resultaatsverplichting.
+                    Wij zetten ons volledig in om de zichtbaarheid en prestaties van je verkooppagina&lsquo;s te verbeteren, maar kunnen geen absolute garantie geven op specifieke posities of zoekresultaten, aangezien marketplace-algoritmes en andere factoren buiten onze controle vallen. We verlenen daarom een inspanningsverplichting en geen resultaatsverplichting.
                   </p>
                 </div>
               </div>
@@ -109,7 +109,7 @@ export default function TermsAndConditions() {
                 <div className="mb-6">
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">3.2 Rechtmatig gebruik</h3>
                   <p className="text-gray-600">
-                    Alle teksten, afbeeldingen, logo's en andere materialen die je aan Klix verstrekt, moeten rechtmatig verkregen zijn (dus geen inbreuk op auteurs- of merkrechten). Je vrijwaart Klix van mogelijke aanspraken van derden die betrekking hebben op het door jou aangeleverde materiaal.
+                    Alle teksten, afbeeldingen, logo&lsquo;s en andere materialen die je aan Klix verstrekt, moeten rechtmatig verkregen zijn (dus geen inbreuk op auteurs- of merkrechten). Je vrijwaart Klix van mogelijke aanspraken van derden die betrekking hebben op het door jou aangeleverde materiaal.
                   </p>
                 </div>
                 
@@ -175,7 +175,7 @@ export default function TermsAndConditions() {
                 <div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">5.3 Overmacht</h3>
                   <p className="text-gray-600">
-                    In geval van overmacht (bijv. storingen in de infrastructuur, pandemie, overheidsmaatregelen of ingrijpende wijzigingen in marketplace-algoritmes) kan Klix zijn verplichtingen geheel of gedeeltelijk opschorten zolang de overmacht voortduurt. Wij zijn in zo'n situatie niet schadeplichtig.
+                    In geval van overmacht (bijv. storingen in de infrastructuur, pandemie, overheidsmaatregelen of ingrijpende wijzigingen in marketplace-algoritmes) kan Klix zijn verplichtingen geheel of gedeeltelijk opschorten zolang de overmacht voortduurt. Wij zijn in zo&lsquo;n situatie niet schadeplichtig.
                   </p>
                 </div>
               </div>
