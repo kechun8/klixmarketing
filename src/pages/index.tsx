@@ -546,7 +546,7 @@ export default function Home() {
                 <Link href="/privacy-policy" className="block text-gray-400 hover:text-white transition-colors">
                   Privacy Policy
                 </Link>
-                <Link href="/cookie-policy" className="block text-gray-400 hover:text-white transition-colors">
+                <Link href="/privacy-policy" className="block text-gray-400 hover:text-white transition-colors">
                   Cookie Policy
                 </Link>
               </div>
