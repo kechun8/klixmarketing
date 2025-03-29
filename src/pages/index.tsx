@@ -539,13 +539,13 @@ export default function Home() {
             <div>
               <h4 className="text-white font-semibold text-lg mb-4">Links</h4>
               <div className="space-y-2">
-                <a href="#" className="block text-gray-400 hover:text-white transition-colors">
+                <a href="/terms-conditions" className="block text-gray-400 hover:text-white transition-colors">
                   Terms & Conditions
                 </a>
-                <a href="#" className="block text-gray-400 hover:text-white transition-colors">
+                <a href="/privacy-policy" className="block text-gray-400 hover:text-white transition-colors">
                   Privacy Policy
                 </a>
-                <a href="#" className="block text-gray-400 hover:text-white transition-colors">
+                <a href="/privacy-policy" className="block text-gray-400 hover:text-white transition-colors">
                   Cookie Policy
                 </a>
               </div>

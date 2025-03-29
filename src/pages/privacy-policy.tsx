@@ -1,0 +1,223 @@
+import React from 'react';
+import { ArrowLeft } from 'lucide-react';
+import Link from 'next/link';
+
+export default function PrivacyPolicy() {
+  return (
+    <div className="flex flex-col min-h-screen bg-white">
+      {/* Header */}
+      <header className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-gray-100">
+        <div className="container mx-auto flex h-16 items-center justify-between px-4">
+          <div className="flex items-center gap-2">
+            <Link href="/">
+              <span className="text-xl font-semibold text-gray-900">Klix.ai</span>
+            </Link>
+          </div>
+          <Link href="/">
+            <button className="flex items-center gap-2 text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors">
+              <ArrowLeft className="h-4 w-4" />
+              Terug naar home
+            </button>
+          </Link>
+        </div>
+      </header>
+
+      <main className="flex-1">
+        <section className="py-16">
+          <div className="container max-w-4xl mx-auto px-4">
+            <div className="mb-12 text-center">
+              <h1 className="text-4xl font-semibold text-gray-900 mb-4">Privacyverklaring Klix.ai</h1>
+              <p className="text-gray-500">Versiedatum: 28-03-2025</p>
+            </div>
+
+            <div className="prose prose-lg max-w-none">
+              <p className="text-gray-600 mb-8">
+                Uw privacy is voor ons van groot belang. Klix Marketing (handelend onder de naam <strong>Klix.ai</strong>) respecteert de privacy van alle gebruikers van onze diensten en website. Wij handelen in overeenstemming met de Algemene Verordening Gegevensbescherming (AVG). In deze privacyverklaring leggen wij helder en transparant uit welke (persoons)gegevens wij verwerken – en vooral wat wij <strong>niet</strong> met uw gegevens doen. Ons uitgangspunt is dat wij geen persoonsgegevens verwerken, tenzij dat strikt noodzakelijk is voor functionele doeleinden. We richten ons uitsluitend op klanten binnen de EU en zorgen ervoor dat onze werkwijze volledig voldoet aan de AVG.
+              </p>
+
+              {/* Section 1 */}
+              <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm mb-8">
+                <h2 className="text-2xl font-semibold text-gray-900 mb-6">1. Wie zijn wij</h2>
+                <p className="text-gray-600">
+                  Klix Marketing (handelend onder de naam <strong>Klix.ai</strong>) is een marketingbedrijf gevestigd in Nederland en richt zich op dienstverlening binnen de Europese Unie. Voor alle verwerkingen van persoonsgegevens genoemd in deze verklaring is Klix Marketing de verwerkingsverantwoordelijke. Dit houdt in dat wij bepalen welke persoonsgegevens eventueel worden verwerkt en met welk doel, en dat wij verantwoordelijk zijn voor de naleving van de privacyregels.
+                </p>
+              </div>
+
+              {/* Section 2 */}
+              <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm mb-8">
+                <h2 className="text-2xl font-semibold text-gray-900 mb-6">2. Welke gegevens verwerken wij (en waarom)</h2>
+                <p className="text-gray-600 mb-6">
+                  Wij verwerken in principe <strong>geen</strong> persoonsgegevens van bezoekers of klanten. U bent dus niet verplicht om persoonlijke informatie met ons te delen om gebruik te kunnen maken van onze website of diensten. Hieronder lichten we toe wat dit precies inhoudt:
+                </p>
+
+                <div className="mb-6">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">2.1 Geen klant- of bezoekersdata</h3>
+                  <p className="text-gray-600">
+                    We verzamelen <em>géén</em> persoonlijke gegevens van websitebezoekers of klanten. Concreet slaan wij bij uw bezoek geen namen, e-mailadressen, IP-adressen of andere herleidbare informatie van u op.
+                  </p>
+                </div>
+
+                <div className="mb-6">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">2.2 Geen gegevens van derden</h3>
+                  <p className="text-gray-600">
+                    Als wij diensten leveren aan onze klanten, verwerken wij ook geen persoonsgegevens van de klanten van onze klanten. Met andere woorden, wij verwerken geen gegevens van derden via onze dienstverlening.
+                  </p>
+                </div>
+
+                <div className="mb-6">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">2.3 Geen externe tracking</h3>
+                  <p className="text-gray-600">
+                    Wij maken <em>géén</em> gebruik van externe tracking- of marketingdiensten. Zo gebruiken we <em>géén</em> Google Analytics, Meta Pixel (Facebook) of vergelijkbare tools van derden die persoonsgegevens verzamelen.
+                  </p>
+                </div>
+
+                <div className="mb-6">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">2.4 Eigen tooling en Bol.com API</h3>
+                  <p className="text-gray-600">
+                    Voor onze diensten maken wij uitsluitend gebruik van onze eigen tooling en de <strong>Bol.com API</strong>, waarmee we <strong>openbare productgegevens</strong> kunnen inzien. Dit betreft geen persoonsgegevens, maar algemene en publiek beschikbare productinformatie (bijvoorbeeld prijs, titel, beschrijving of voorraadstatus). Daardoor vindt er geen verwerking van persoonsgegevens via externe partijen plaats.
+                  </p>
+                </div>
+
+                <div className="mb-6">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">2.5 Functionele technische gegevens</h3>
+                  <p className="text-gray-600">
+                    In bepaalde gevallen is het noodzakelijk om beperkte technische informatie te verwerken voor het functioneren van onze website en diensten. Zo kan het zijn dat een functionele cookie wordt geplaatst of dat beveiligingsscripts bepaalde gegevens controleren voor de veiligheid. Dergelijke technische gegevens worden <strong>uitsluitend</strong> gebruikt om de website goed te laten werken of te beveiligen, en niet om u als persoon te identificeren. De rechtsgrond hiervoor is ons gerechtvaardigd belang om een veilige, goed functionerende dienst te leveren.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">2.6 Communicatiegegevens</h3>
+                  <p className="text-gray-600">
+                    Wanneer u uit eigen initiatief contact met ons opneemt (bijvoorbeeld via e-mail), verwerken wij de persoonsgegevens die u zelf verstrekt, zoals uw naam, contactgegevens en de inhoud van uw bericht. We gebruiken deze informatie alleen om op uw verzoek te reageren of uw vraag te behandelen. De grondslag hiervoor is uw toestemming (doordat u zelf contact met ons opneemt) dan wel ons gerechtvaardigd belang om op dergelijke verzoeken te reageren.
+                  </p>
+                </div>
+
+                <p className="text-gray-600 mt-6 italic">
+                  Let op: Wij maken <strong>geen</strong> gebruik van geautomatiseerde besluitvorming of profilering. Omdat wij geen persoonlijke data verzamelen, zijn er ook geen geautomatiseerde analyses of besluiten die invloed op u kunnen hebben.
+                </p>
+              </div>
+
+              {/* Section 3 */}
+              <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm mb-8">
+                <h2 className="text-2xl font-semibold text-gray-900 mb-6">3. Bewaartermijnen</h2>
+                <p className="text-gray-600 mb-6">
+                  Omdat wij vrijwel geen persoonsgegevens verzamelen, hanteren we zeer beperkte bewaartermijnen. In principe slaan wij geen persoonlijke gegevens van u op. Als u ons toch persoonsgegevens verstrekt (bijvoorbeeld door een e-mail te sturen), bewaren we die gegevens alleen zolang als nodig is voor het doel waarvoor u ze heeft gegeven. Zodra uw vraag is afgehandeld of de dienstverlening is voltooid, verwijderen of anonimiseren wij uw informatie.
+                </p>
+                <p className="text-gray-600">
+                  We houden ons aan het principe van <strong>dataminimalisatie</strong>: geen gegevens langer bewaren dan strikt noodzakelijk. Eventuele technische logbestanden of functionele cookie-informatie die voor beveiliging of prestatiebewaking worden gebruikt, worden slechts kort bewaard en daarna gewist. Er worden geen permanente persoonlijke profielen of historische data bijgehouden.
+                </p>
+              </div>
+
+              {/* Section 4 */}
+              <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm mb-8">
+                <h2 className="text-2xl font-semibold text-gray-900 mb-6">4. Delen met derden</h2>
+                <p className="text-gray-600 mb-6">
+                  Wij verstrekken uw gegevens <strong>niet</strong> aan derden. Omdat wij geen persoonsgegevens verzamelen, is er ook geen data die we met externe partijen delen voor bijvoorbeeld marketing- of analysedoeleinden. We verkopen uw informatie niet en gebruiken geen externe dataverwerkers; alle eventuele verwerking gebeurt binnen onze eigen omgeving (inclusief het gebruik van de Bol.com API om openbare productinformatie op te halen).
+                </p>
+                <p className="text-gray-600">
+                  Uw gegevens worden niet buiten de Europese Unie doorgegeven of opgeslagen. In uitzonderlijke gevallen kunnen wij wettelijk verplicht worden om bepaalde informatie te verstrekken (bijvoorbeeld aan overheidsinstanties). Uiteraard zullen wij in dat geval aan die verplichting voldoen, maar aangezien wij doorgaans geen persoonsgegevens van u hebben, achten wij dit scenario zeer onwaarschijnlijk.
+                </p>
+              </div>
+
+              {/* Section 5 */}
+              <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm mb-8">
+                <h2 className="text-2xl font-semibold text-gray-900 mb-6">5. Cookies en technologie</h2>
+                <p className="text-gray-600 mb-6">
+                  Onze website en applicaties gebruiken uitsluitend <strong>functionele cookies</strong> en vergelijkbare technologie voor een goede werking. We plaatsen geen tracking cookies die uw surfgedrag bijhouden, en we gebruiken geen externe analytische diensten. Concreet maken we <em>géén</em> gebruik van Google Analytics, Meta Pixel of soortgelijke tools van derden die gegevens over bezoekers verzamelen.
+                </p>
+                <p className="text-gray-600">
+                  Eventuele cookies die wij zelf inzetten dienen enkel een functioneel doel, zoals het onthouden van uw voorkeuren of het meten van prestaties op geanonimiseerde wijze om de site te verbeteren. Deze cookies bevatten geen persoonlijk herleidbare informatie en worden niet voor marketing of profilering gebruikt. Omdat het enkel om noodzakelijke (functionele) cookies gaat, is uw toestemming hiervoor volgens de wet niet vereist. In onze eigen softwareoplossingen wordt eveneens alleen technisch noodzakelijke code gebruikt en geen middelen die persoonsgegevens van gebruikers verzamelen.
+                </p>
+              </div>
+
+              {/* Section 6 */}
+              <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm mb-8">
+                <h2 className="text-2xl font-semibold text-gray-900 mb-6">6. Jouw rechten</h2>
+                <p className="text-gray-600 mb-6">
+                  Ook al verwerken wij nauwelijks persoonsgegevens, u heeft op grond van de AVG diverse privacyrechten. Mocht u vermoeden dat wij gegevens van u hebben, of wilt u voor de zekerheid uw rechten uitoefenen, dan kunt u zich beroepen op de volgende rechten:
+                </p>
+                <ul className="list-disc pl-6 text-gray-600 space-y-2">
+                  <li><strong>Recht op inzage, correctie en verwijdering:</strong> U heeft het recht om te weten welke persoonsgegevens wij eventueel van u hebben en om onjuiste gegevens te laten aanpassen of uw gegevens te laten wissen.</li>
+                  <li><strong>Recht op beperking van verwerking:</strong> U kunt ons verzoeken de (eventuele) verwerking van uw persoonsgegevens te beperken in bepaalde gevallen.</li>
+                  <li><strong>Recht van bezwaar:</strong> U heeft het recht bezwaar te maken tegen een verwerking van uw persoonsgegevens, indien van toepassing.</li>
+                  <li><strong>Recht op overdraagbaarheid:</strong> Voor zover wij persoonsgegevens van u hebben die u zelf aan ons heeft verstrekt, heeft u het recht om die gegevens in een overdraagbaar formaat te ontvangen en aan een andere partij over te dragen (dataportabiliteit).</li>
+                  <li><strong>Recht om toestemming in te trekken:</strong> In het uitzonderlijke geval dat wij op basis van uw toestemming persoonsgegevens verwerken, mag u die toestemming op elk moment intrekken.</li>
+                  <li><strong>Recht om een klacht in te dienen:</strong> Als u vindt dat wij niet op de juiste wijze met uw gegevens omgaan, heeft u het recht een klacht in te dienen bij de toezichthoudende autoriteit. In Nederland is dit de Autoriteit Persoonsgegevens. Wij stellen het op prijs als u bij vragen of klachten eerst met ons contact opneemt, zodat we een oplossing kunnen vinden.</li>
+                </ul>
+              </div>
+
+              {/* Section 7 */}
+              <div className="bg-white rounded-2xl p-8 border border-gray-200 shadow-sm mb-8">
+                <h2 className="text-2xl font-semibold text-gray-900 mb-6">7. Contact</h2>
+                <p className="text-gray-600 mb-6">
+                  Heeft u na het lezen van deze privacyverklaring vragen over hoe wij met uw gegevens omgaan, of wilt u een verzoek of klacht indienen? Neem dan gerust contact met ons op. Wij helpen u graag verder.
+                </p>
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Contactgegevens voor privacyzaken:</h3>
+                  <p className="text-gray-600">
+                    Klix Marketing (Klix.ai) – E-mail: <a href="mailto:info@klixmarketing.nl" className="text-blue-600 hover:underline">info@klixmarketing.nl</a>
+                  </p>
+                  <p className="text-gray-600 mt-2">
+                    Gebruik dit adres voor al uw vragen omtrent privacy of om uw rechten (zoals hierboven beschreven) uit te oefenen. We staan voor u klaar om uw vragen te beantwoorden en eventuele problemen op te lossen.
+                  </p>
+                </div>
+              </div>
+
+              {/* Last updated */}
+              <div className="text-center text-gray-500 italic">
+                <p>Laatst bijgewerkt op 28 maart 2025</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      {/* Footer */}
+      <footer className="bg-gray-900 text-gray-200 py-16">
+        <div className="container max-w-6xl mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+            <div>
+              <div className="flex items-center gap-2 mb-4">
+                <h4 className="text-white font-semibold text-lg">Klix.ai</h4>
+              </div>
+              <p className="text-gray-400">
+                Rigoletto 253
+                <br />
+                2907 JG Capelle aan den IJssel
+              </p>
+              <p className="text-gray-400 mt-2">
+                KVK: 96245719
+              </p>
+            </div>
+
+            <div>
+              <h4 className="text-white font-semibold text-lg mb-4">Contact</h4>
+              <p className="text-gray-400">Telefoon: +31 6 44337743</p>
+              <p className="text-gray-400">Email: info@klixmarketing.nl</p>
+              <p className="text-gray-400 mt-2">Mon-Fri: 09:00 - 17:30</p>
+            </div>
+
+            <div>
+              <h4 className="text-white font-semibold text-lg mb-4">Links</h4>
+              <div className="space-y-2">
+                <Link href="/terms-conditions" className="block text-gray-400 hover:text-white transition-colors">
+                  Terms & Conditions
+                </Link>
+                <Link href="/privacy-policy" className="block text-gray-400 hover:text-white transition-colors">
+                  Privacy Policy
+                </Link>
+                <Link href="/privacy-policy" className="block text-gray-400 hover:text-white transition-colors">
+                  Cookie Policy
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="pt-8 border-t border-gray-800 text-center text-sm text-gray-500">
+            <p>&copy; {new Date().getFullYear()} Klix.ai - All rights reserved</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
