@@ -1,5 +1,6 @@
 import type React from "react"
 import { Inter } from "next/font/google"
+import { Analytics } from "@vercel/analytics/react"
 import "../styles/globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           {children}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
