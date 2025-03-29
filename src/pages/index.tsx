@@ -15,7 +15,7 @@ import {
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-white text-gray-900">
+    <div className="flex flex-col min-h-screen bg-white">
       {/* Header */}
       <header className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-gray-100">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
