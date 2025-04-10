@@ -78,7 +78,7 @@ export default function Home() {
               <div className="mt-12 w-full max-w-3xl aspect-video rounded-xl overflow-hidden shadow-lg">
                 <iframe 
                   className="w-full h-full"
-                  src="https://www.youtube.com/embed/G9wIhL3O9Ec" 
+                  src="https://www.youtube.com/embed/2_UPlgvJf20?si=T_fYlQOBvwWDresB" 
                   title="Klix.ai Promotional Video"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                   allowFullScreen>
